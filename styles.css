@@ -1,18 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background: black;
-    padding: 20px 40px;
-}
-
-nav {
-    float: right;
-}
+.container {
+    height: inherit;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
 ul {
     margin: 0;
@@ -25,25 +28,145 @@ li {
     margin-right: 20px;
 }
 
-section {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
+div {
+    display: block;
 }
 
-div {
-    background: red;
-    margin: auto;
-    width: 100px;
+a {
+    text-decoration: none;
+    background-color: transparent;
 }
+
+/* HEADER SECTION */
+
+header {
+    background: blue;
+    padding: 20px 40px;
+    color: white;
+}
+
+/* END HEADER SECTION */
+
+.jumbotron {
+    width: 100;
+    align-self: center!important;
+    padding: 100px;
+    align-content: center!important;
+}
+
+/* REPO SECTION */
+
+#repo {
+    position: relative;
+    background-color: blue;
+}
+
+.section-b {
+    display: flex!important;
+}
+
+/* END REPO SECTION */
+
+/* ABOUT SECTION */
+
+.text-black {
+    color: black;
+}
+
+/* END ABOUT SECTION */
+
+/* CONTACT SECTION */
+
+#contact {
+    position: relative;
+    background-color: blue;
+}
+
+.section-d {
+    display: flex!important;
+}
+
+.container {
+    height: inherit;
+}
+
+.align-center {
+    align-self: center!important;
+} 
+
+#contact .section-title {
+    padding-top: 0px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.sub-title {
+    color: white;
+    text-align: center!important;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* END CONTACT SECTION */
+
+/* FOOTER SECTION */
 
 footer {
-    background: black;
+    background: blue;
     padding: 10px 20px;
-<<<<<<< HEAD
 }
-=======
+
+#footer .copyright-text {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
 }
->>>>>>> 267f2add6af29b1d3857e55a8780976db3743f07
+
+.text-white {
+    color: white;
+}
+
+nav {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+/* END FOOTER SECTION */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
