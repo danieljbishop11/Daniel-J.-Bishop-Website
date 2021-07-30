@@ -51,12 +51,17 @@ header {
 
 /* END HEADER SECTION */
 
+/* MAIN CONTENT */
+
 .jumbotron {
     width: 100;
     align-self: center!important;
     padding: 100px;
     align-content: center!important;
 }
+
+
+/* END MAIN CONTENT */
 
 /* REPO SECTION */
 
