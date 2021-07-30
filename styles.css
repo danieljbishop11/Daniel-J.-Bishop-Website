@@ -17,6 +17,10 @@ body {
     margin-left: auto;
   }
 
+.text-white {
+    color: white;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -73,6 +77,22 @@ header {
     color: black;
 }
 
+.img {
+    vertical-align: middle;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.video iframe {
+	top: 0;
+	left: 0;
+}
+
 /* END ABOUT SECTION */
 
 /* CONTACT SECTION */
@@ -126,17 +146,6 @@ footer {
     padding: 10px 20px;
 }
 
-#footer .copyright-text {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-}
-
-.text-white {
-    color: white;
-}
-
 nav {
     display: flex;
     float: right;
@@ -145,8 +154,6 @@ nav {
     margin-bottom: 0;
     list-style: none;
 }
-
-
 
 /* END FOOTER SECTION */
 
